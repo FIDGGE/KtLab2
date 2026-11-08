@@ -1,0 +1,4 @@
+<resources>
+  <style name="Theme.KtLab2" parent="Theme.Material3.DayNight.NoActionBar">
+  </style>
+</resources>

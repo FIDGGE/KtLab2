@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+      android:id="@+id/button_ok"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/button_ok_text" />
+
+    <EditText
+      android:id="@+id/edit_text"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Введите текст" />
+
+    <Button
+      android:id="@+id/button_log"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="ЛОГИРОВАНИЕ LOG" />
+
+    <Button
+      android:id="@+id/button_timber"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="ЛОГИРОВАНИЕ TIMBER" />
+
+    <Button
+      android:id="@+id/button_black_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="ЧЕРНЫЙ ТЕКСТ" />
+
+    <Button
+      android:id="@+id/button_red_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="КРАСНЫЙ ТЕКСТ" />
+
+    <Button
+      android:id="@+id/button_size_8sp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="РАЗМЕР - 8SP" />
+
+    <Button
+      android:id="@+id/button_size_24sp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="РАЗМЕР - 24SP" />
+
+    <Button
+      android:id="@+id/button_white_bg"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="БЕЛЫЙ ФОН" />
+
+    <Button
+      android:id="@+id/button_yellow_bg"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="ЖЕЛТЫЙ ФОН" />
+
+  </LinearLayout>
+
+</ScrollView>
